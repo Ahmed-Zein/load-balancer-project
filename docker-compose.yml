@@ -5,30 +5,35 @@ services:
       dockerfile: node/Dockerfile
     environment:
       - PORT=:8081
+      - SERVICE_NAME=node1
   node2:
     build: 
       context: .
       dockerfile: node/Dockerfile
     environment:
       - PORT=:8082
+      - SERVICE_NAME=node2
   node3:
     build: 
       context: .
       dockerfile: node/Dockerfile
     environment:
       - PORT=:8083
+      - SERVICE_NAME=node3
   node4:
     build: 
       context: .
       dockerfile: node/Dockerfile
     environment:
       - PORT=:8084
+      - SERVICE_NAME=node4
   node5:
     build: 
       context: .
       dockerfile: node/Dockerfile
     environment:
       - PORT=:8085
+      - SERVICE_NAME=node5
   lb:
     build: 
       context: .

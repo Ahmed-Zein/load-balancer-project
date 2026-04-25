@@ -1,0 +1,35 @@
+# Stress test results 
+results/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output files from the Go compiler (rarely used directly)
+*.out
+
+# Code coverage profiles and other test artifacts
+coverage.*
+*.coverprofile
+profile.cov
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency directories (uncomment if you want to exclude 'vendor/')
+# vendor/
+
+# Local environment variables
+.env
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.swp
